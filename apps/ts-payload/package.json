@@ -12,11 +12,11 @@
     "typescript": "^4.7.3"
   },
   "scripts": {
-    "generate:types": "PAYLOAD_CONFIG_PATH=src/payload.config.ts payload generate:types",
+    "generate:types": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload generate:types",
     "dev": "nodemon",
-    "build:payload": "PAYLOAD_CONFIG_PATH=src/payload.config.ts payload build",
+    "build:payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload build",
     "build:server": "tsc",
     "build": "yarn build:server && yarn build:payload",
-    "serve": "PAYLOAD_CONFIG_PATH=dist/payload.config.js NODE_ENV=production node dist/server.js"
+    "serve": "cross-env PAYLOAD_CONFIG_PATH=dist/payload.config.js NODE_ENV=production node dist/server.js"
   }
 }
