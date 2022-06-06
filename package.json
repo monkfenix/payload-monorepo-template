@@ -8,6 +8,7 @@
     "cross-env": "^7.0.3"
   },
   "scripts": {
-    "ts-payload:dev": "yarn workspace @payload-monorepo/ts-payload dev"
+    "ts-payload:dev": "yarn workspace @payload-monorepo/ts-payload dev",
+    "ts-payload:generate:types": "yarn workspace @payload-monorepo/ts-payload generate:types"
   }
 }
