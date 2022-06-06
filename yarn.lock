@@ -2179,6 +2179,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@payload-monorepo/ts-payload@workspace:apps/ts-payload":
+  version: 0.0.0-use.local
+  resolution: "@payload-monorepo/ts-payload@workspace:apps/ts-payload"
+  dependencies:
+    dotenv: ^16.0.1
+    express: ^4.18.1
+    nodemon: ^2.0.16
+    payload: ^0.17.2
+    ts-node: ^10.8.1
+    typescript: ^4.7.3
+  languageName: unknown
+  linkType: soft
+
 "@polka/url@npm:^1.0.0-next.20":
   version: 1.0.0-next.21
   resolution: "@polka/url@npm:1.0.0-next.21"
@@ -13553,19 +13566,6 @@ __metadata:
   checksum: 7d1aa7aa3ae1c0459c4922ed0dbfbade442cfe0c25aebaf620cdf1774f112c8d7a9b14934cb6719274917f35b2c503ba87bcaf5e16a0d39ba0f68ce3e7728363
   languageName: node
   linkType: hard
-
-"ts-payload@workspace:apps/ts-payload":
-  version: 0.0.0-use.local
-  resolution: "ts-payload@workspace:apps/ts-payload"
-  dependencies:
-    dotenv: ^16.0.1
-    express: ^4.18.1
-    nodemon: ^2.0.16
-    payload: ^0.17.2
-    ts-node: ^10.8.1
-    typescript: ^4.7.3
-  languageName: unknown
-  linkType: soft
 
 "tslib@npm:^2.0.3":
   version: 2.4.0
